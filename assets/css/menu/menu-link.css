@@ -1,10 +1,4 @@
-/* :last-child é usado aqui pq quero estilizar a último li(ultimo filho do "pai") da página. */
-
-.menu-item:last-child .menu-link {
-    margin-right: 0;
-}
-
-.menu-link {
+.menu__link {
     color: #808080;
     margin-right: 1.25rem;
     text-decoration: none;
@@ -15,11 +9,11 @@
 
 Para funcionar, devo add um "class="ativo"" no html*/
 
-.menu-link.ativo {
+.menu__link.ativo {
     color: #333333;
     font-weight: bold;
 }
 
-.menu-link:hover {
+.menu__link:hover {
     text-decoration: underline;
 }
