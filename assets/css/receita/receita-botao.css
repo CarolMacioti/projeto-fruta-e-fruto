@@ -1,0 +1,19 @@
+.receita__botao {
+    background: #8d0606;
+    border: none;
+    border-radius: 5px;
+
+/* Conteúdo do botão */
+    color: #fdfdfd;
+    padding: 1rem;
+
+/*Transição do Efeito do Hover*/ 
+    transition: all .1s ease-in-out;
+
+}
+
+/*Efeito ao passar o mouse encima do botão*/
+.receita__botao:hover {
+    background: #620404;
+    cursor: pointer;
+}
