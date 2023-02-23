@@ -2,12 +2,10 @@
     background: red; /*Para TESTAR e VISUALIZAR o fundo enquanto estilizo*/
     background-size: cover; /*ocupando todo o fundo*/
     
-    
-    width: 300px;
-    height: 300px;
-
-    margin: 0 auto;
     border-radius: 100%;
+    margin: 0 auto;
+    height: 300px;
+    width: 300px;
     
 /*Para que as imagens NÃO SE REPITAM*/ 
     background-repeat: no-repeat;
