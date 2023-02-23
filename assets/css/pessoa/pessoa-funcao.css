@@ -1,0 +1,8 @@
+.pessoa__funcao {
+
+/*Para o texto ficar sempre em letras Minúsculas*/
+    text-transform: lowercase; /* lowercase = caixa baixa */
+
+    font-size: 1.25rem;
+    color: #595959;
+}
